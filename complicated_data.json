@@ -1,0 +1,1702 @@
+[
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/1",
+    "id": "1",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Point sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor168",
+          "vendor842"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 133,
+      "originalPrice": 274,
+      "cost": 20
+    },
+    "availableQuantity": "79",
+    "uri": "http://robinson.biz/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/116/743",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/2",
+    "id": "2",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Parent sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor609",
+          "vendor942"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 109,
+      "originalPrice": 252,
+      "cost": 46
+    },
+    "availableQuantity": "24",
+    "uri": "https://stevenson.com/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/886/473",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/3",
+    "id": "3",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Property sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor150",
+          "vendor520"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 127,
+      "originalPrice": 262,
+      "cost": 47
+    },
+    "availableQuantity": "64",
+    "uri": "http://huang.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/275/841",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/4",
+    "id": "4",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Few sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor773",
+          "vendor215"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 85,
+      "originalPrice": 279,
+      "cost": 44
+    },
+    "availableQuantity": "30",
+    "uri": "https://cox.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/633/318",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/5",
+    "id": "5",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Cell sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor153",
+          "vendor674"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 72,
+      "originalPrice": 253,
+      "cost": 24
+    },
+    "availableQuantity": "71",
+    "uri": "https://www.russo-boyd.com/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/610/850",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/6",
+    "id": "6",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "During sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor586",
+          "vendor517"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 93,
+      "originalPrice": 233,
+      "cost": 46
+    },
+    "availableQuantity": "48",
+    "uri": "http://hays-garza.info/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/625/405",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/7",
+    "id": "7",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Deal sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor192",
+          "vendor164"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 124,
+      "originalPrice": 243,
+      "cost": 30
+    },
+    "availableQuantity": "99",
+    "uri": "http://www.woodard-baird.net/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/570x454",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/8",
+    "id": "8",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Whom sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor884",
+          "vendor591"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 130,
+      "originalPrice": 294,
+      "cost": 24
+    },
+    "availableQuantity": "18",
+    "uri": "http://www.sparks-rodriguez.com/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/353x82",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/9",
+    "id": "9",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Book sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor717",
+          "vendor212"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 80,
+      "originalPrice": 218,
+      "cost": 23
+    },
+    "availableQuantity": "31",
+    "uri": "http://warner.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/363/641",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/10",
+    "id": "10",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Friend sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor100",
+          "vendor730"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 74,
+      "originalPrice": 258,
+      "cost": 44
+    },
+    "availableQuantity": "91",
+    "uri": "http://riley.org/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/50x306",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/11",
+    "id": "11",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Get sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor220",
+          "vendor951"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 126,
+      "originalPrice": 262,
+      "cost": 39
+    },
+    "availableQuantity": "75",
+    "uri": "https://bradley-gonzalez.com/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/2/567",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/12",
+    "id": "12",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Main sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor679",
+          "vendor289"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 108,
+      "originalPrice": 217,
+      "cost": 25
+    },
+    "availableQuantity": "41",
+    "uri": "http://gibson.com/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/691/291",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/13",
+    "id": "13",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Big sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor260",
+          "vendor165"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 126,
+      "originalPrice": 216,
+      "cost": 48
+    },
+    "availableQuantity": "24",
+    "uri": "https://www.hutchinson-marshall.com/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/545x906",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/14",
+    "id": "14",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Improve sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor697",
+          "vendor134"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 132,
+      "originalPrice": 211,
+      "cost": 34
+    },
+    "availableQuantity": "72",
+    "uri": "https://www.bowen-oconnor.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/746/642",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/15",
+    "id": "15",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Concern sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor111",
+          "vendor769"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 143,
+      "originalPrice": 285,
+      "cost": 40
+    },
+    "availableQuantity": "98",
+    "uri": "http://www.smith-davis.com/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/247x202",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/16",
+    "id": "16",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "With sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor323",
+          "vendor699"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 94,
+      "originalPrice": 220,
+      "cost": 33
+    },
+    "availableQuantity": "70",
+    "uri": "http://douglas.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/142/917",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/17",
+    "id": "17",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Act sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor409",
+          "vendor637"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 113,
+      "originalPrice": 236,
+      "cost": 32
+    },
+    "availableQuantity": "90",
+    "uri": "http://www.lee-mendoza.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/773/155",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/18",
+    "id": "18",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Again sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor625",
+          "vendor959"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 75,
+      "originalPrice": 270,
+      "cost": 20
+    },
+    "availableQuantity": "16",
+    "uri": "https://www.blair-marquez.biz/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/537/797",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/19",
+    "id": "19",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Both sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor519",
+          "vendor707"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 100,
+      "originalPrice": 226,
+      "cost": 26
+    },
+    "availableQuantity": "33",
+    "uri": "https://acosta.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/606/570",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/20",
+    "id": "20",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Because sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor230",
+          "vendor811"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 79,
+      "originalPrice": 239,
+      "cost": 24
+    },
+    "availableQuantity": "95",
+    "uri": "http://armstrong-melton.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/724/269",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/21",
+    "id": "21",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Certainly sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor598",
+          "vendor695"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 123,
+      "originalPrice": 239,
+      "cost": 30
+    },
+    "availableQuantity": "2",
+    "uri": "http://brown.com/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/506/15",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/22",
+    "id": "22",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Region sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor150",
+          "vendor670"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 56,
+      "originalPrice": 272,
+      "cost": 38
+    },
+    "availableQuantity": "56",
+    "uri": "http://turner.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/669/189",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/23",
+    "id": "23",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Many sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor901",
+          "vendor341"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 140,
+      "originalPrice": 220,
+      "cost": 30
+    },
+    "availableQuantity": "2",
+    "uri": "https://www.powell-stevenson.biz/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/881/667",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/24",
+    "id": "24",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Through sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor776",
+          "vendor761"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 108,
+      "originalPrice": 213,
+      "cost": 28
+    },
+    "availableQuantity": "42",
+    "uri": "https://www.garcia.com/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/7x281",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/25",
+    "id": "25",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Leave sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor240",
+          "vendor659"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 137,
+      "originalPrice": 247,
+      "cost": 48
+    },
+    "availableQuantity": "93",
+    "uri": "http://bullock.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/945/147",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/26",
+    "id": "26",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Care sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor101",
+          "vendor783"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 144,
+      "originalPrice": 247,
+      "cost": 46
+    },
+    "availableQuantity": "95",
+    "uri": "https://burke.com/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/424x98",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/27",
+    "id": "27",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Simply sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor888",
+          "vendor673"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 111,
+      "originalPrice": 280,
+      "cost": 26
+    },
+    "availableQuantity": "73",
+    "uri": "https://www.pittman.org/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/673x311",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/28",
+    "id": "28",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Church sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor145",
+          "vendor612"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 84,
+      "originalPrice": 244,
+      "cost": 40
+    },
+    "availableQuantity": "50",
+    "uri": "https://www.lewis-herrera.net/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/765/1018",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/29",
+    "id": "29",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "White sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor354",
+          "vendor191"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 105,
+      "originalPrice": 232,
+      "cost": 24
+    },
+    "availableQuantity": "26",
+    "uri": "http://hopkins-torres.net/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/111x756",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/30",
+    "id": "30",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "However sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor193",
+          "vendor677"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 90,
+      "originalPrice": 226,
+      "cost": 47
+    },
+    "availableQuantity": "15",
+    "uri": "https://campbell.net/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/207x563",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/31",
+    "id": "31",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Probably sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor416",
+          "vendor101"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 148,
+      "originalPrice": 277,
+      "cost": 23
+    },
+    "availableQuantity": "14",
+    "uri": "http://george.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/865/508",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/32",
+    "id": "32",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Quite sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor908",
+          "vendor780"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 73,
+      "originalPrice": 236,
+      "cost": 41
+    },
+    "availableQuantity": "97",
+    "uri": "http://johnson.com/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/64x903",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/33",
+    "id": "33",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Race sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor737",
+          "vendor864"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 131,
+      "originalPrice": 235,
+      "cost": 46
+    },
+    "availableQuantity": "82",
+    "uri": "https://www.soto.com/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/731/822",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/34",
+    "id": "34",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Worker sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor861",
+          "vendor849"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 129,
+      "originalPrice": 278,
+      "cost": 23
+    },
+    "availableQuantity": "58",
+    "uri": "https://www.allen.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/65/100",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/35",
+    "id": "35",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Agent sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor946",
+          "vendor203"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 95,
+      "originalPrice": 259,
+      "cost": 23
+    },
+    "availableQuantity": "97",
+    "uri": "https://www.molina-hernandez.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/92/649",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/36",
+    "id": "36",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Room sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor745",
+          "vendor836"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 118,
+      "originalPrice": 296,
+      "cost": 23
+    },
+    "availableQuantity": "56",
+    "uri": "https://www.manning.org/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/7/830",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/37",
+    "id": "37",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Thus sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor732",
+          "vendor497"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 81,
+      "originalPrice": 246,
+      "cost": 34
+    },
+    "availableQuantity": "76",
+    "uri": "http://riggs.com/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/981/1000",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/38",
+    "id": "38",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "View sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor955",
+          "vendor887"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 81,
+      "originalPrice": 269,
+      "cost": 33
+    },
+    "availableQuantity": "1",
+    "uri": "https://www.smith.com/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/792/546",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/39",
+    "id": "39",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "As sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor592",
+          "vendor465"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 85,
+      "originalPrice": 220,
+      "cost": 41
+    },
+    "availableQuantity": "64",
+    "uri": "http://www.harris.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/1007/90",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/40",
+    "id": "40",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Beautiful sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor333",
+          "vendor160"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 99,
+      "originalPrice": 264,
+      "cost": 37
+    },
+    "availableQuantity": "11",
+    "uri": "http://www.price-hobbs.biz/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/125x320",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/41",
+    "id": "41",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Course sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor890",
+          "vendor514"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 107,
+      "originalPrice": 243,
+      "cost": 20
+    },
+    "availableQuantity": "100",
+    "uri": "https://www.dennis-jackson.com/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/51x631",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/42",
+    "id": "42",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Your sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor947",
+          "vendor404"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 68,
+      "originalPrice": 240,
+      "cost": 48
+    },
+    "availableQuantity": "9",
+    "uri": "https://www.perez.org/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/865/828",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/43",
+    "id": "43",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Thing sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor319",
+          "vendor816"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 56,
+      "originalPrice": 247,
+      "cost": 35
+    },
+    "availableQuantity": "18",
+    "uri": "https://www.myers-monroe.info/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/471/630",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/44",
+    "id": "44",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Operation sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor718",
+          "vendor941"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 144,
+      "originalPrice": 224,
+      "cost": 22
+    },
+    "availableQuantity": "11",
+    "uri": "https://warren.com/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/194x602",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/45",
+    "id": "45",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Couple sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor917",
+          "vendor243"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 134,
+      "originalPrice": 231,
+      "cost": 32
+    },
+    "availableQuantity": "20",
+    "uri": "http://www.hines.com/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/872/121",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/46",
+    "id": "46",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Sense sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor745",
+          "vendor800"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 139,
+      "originalPrice": 212,
+      "cost": 30
+    },
+    "availableQuantity": "28",
+    "uri": "http://stewart.info/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/997/919",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/47",
+    "id": "47",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Past sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor730",
+          "vendor171"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 111,
+      "originalPrice": 280,
+      "cost": 33
+    },
+    "availableQuantity": "45",
+    "uri": "http://smith-berg.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/255/361",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/48",
+    "id": "48",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Exist sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor593",
+          "vendor590"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 79,
+      "originalPrice": 235,
+      "cost": 32
+    },
+    "availableQuantity": "26",
+    "uri": "http://www.finley.com/",
+    "images": [
+      {
+        "uri": "https://picsum.photos/653/510",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/49",
+    "id": "49",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Stand sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor235",
+          "vendor310"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 118,
+      "originalPrice": 225,
+      "cost": 23
+    },
+    "availableQuantity": "32",
+    "uri": "https://www.gonzalez-miller.org/",
+    "images": [
+      {
+        "uri": "https://placekitten.com/920/168",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "name": "projects/PROJECT_NUMBER/locations/global/catalogs/default_catalog/branches/0/products/50",
+    "id": "50",
+    "categories": "Apparel & Accessories > Shoes",
+    "title": "Strategy sneakers",
+    "description": "Sneakers for the rest of us",
+    "attributes": {
+      "vendor": {
+        "text": [
+          "vendor233",
+          "vendor296"
+        ]
+      }
+    },
+    "language_code": "en",
+    "tags": [
+      "black-friday"
+    ],
+    "priceInfo": {
+      "currencyCode": "USD",
+      "price": 149,
+      "originalPrice": 237,
+      "cost": 36
+    },
+    "availableQuantity": "71",
+    "uri": "https://hunt.info/",
+    "images": [
+      {
+        "uri": "https://dummyimage.com/288x838",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  }
+]
