@@ -1,0 +1,21 @@
+{
+  "userEvent": {
+    "eventType": "detail-page-view",
+    "visitorId": "626d2871-ad9c-4374-9ad0-e40586e96138",
+    "userInfo": {
+      "userId": "35acc714-a65f-43ed-bed7-1de8b6a7cf67",
+      "ipAddress": "69.87.138.134",
+      "userAgent": "Mozilla/5.0 (compatible; MSIE 6.0; Windows 95; Trident/4.1)"
+    }
+  },
+  "pageSize": 10,
+  "filter": "filterOutOfStockItems",
+  "params": {
+    "returnProduct": true,
+    "returnScore": true,
+    "strictFiltering": true
+  },
+  "labels": {
+    "label1": "testLabel"
+  }
+}
