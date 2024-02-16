@@ -36,5 +36,5 @@ for product in fake_products:
     print(json.dumps(product, indent=2))
 
 # Optionally, write the data to a JSON file
-with open('prod_data.json', 'w') as f:
+with open('products.json', 'w') as f:
     json.dump(fake_products, f, indent=2)

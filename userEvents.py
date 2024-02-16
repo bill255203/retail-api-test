@@ -25,5 +25,5 @@ def generate_user_event():
 
 user_events = [generate_user_event() for _ in range(10)]
 
-with open('fake_user_events.json', 'w') as f:
+with open('userEvents.json', 'w') as f:
     json.dump(user_events, f, indent=2)
