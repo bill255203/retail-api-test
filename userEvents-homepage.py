@@ -25,5 +25,9 @@ def generate_user_event():
 
 user_events = [generate_user_event() for _ in range(10)]
 
+# Open the file in write mode
 with open('userEvents.json', 'w') as f:
-    json.dump(user_events, f, indent=2)
+    # Iterate over each user event
+    for event in user_events:
+        # Convert the event to a JSON string and write it to the file followed by a newline
+        f.write(json.dumps(event) + '\n')
