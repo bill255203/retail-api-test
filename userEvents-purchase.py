@@ -1,10 +1,32 @@
 import json
 import random
 import uuid
-from datetime import datetime
+from datetime import datetime, timedelta
 from faker import Faker
 
 fake = Faker()
+
+
+def generate_random_datetime(start_date, end_date):
+    """
+    Generate a random datetime between start_date and end_date.
+    
+    :param start_date: The start date as a datetime object.
+    :param end_date: The end date as a datetime object.
+    :return: A random datetime object between the start and end dates.
+    """
+    time_difference = end_date - start_date
+    random_seconds = random.randint(0, int(time_difference.total_seconds()))
+    random_datetime = start_date + timedelta(seconds=random_seconds)
+    return random_datetime
+
+# Define the start and end dates
+start_date = datetime(2024, 1, 1)
+end_date = datetime.now()
+
+# Generate a random datetime between the start and end dates
+random_datetime = generate_random_datetime(start_date, end_date)
+
 
 # Generate a single fake product
 def generate_fake_product(product_id, index):
@@ -43,6 +65,10 @@ def generate_purchase_event_with_details(products):
     revenue = selected_product["priceInfo"]["price"] * quantity
     tax = revenue * 0.07  # Assuming a 7% tax rate
     cost = selected_product["priceInfo"]["cost"] * quantity
+
+    # Move the random datetime generation inside this function
+    event_datetime = generate_random_datetime(start_date, end_date).isoformat() + "Z"
+
     purchase_transaction = {
         "id": uuid.uuid4().hex,
         "revenue": revenue,
@@ -70,7 +96,7 @@ def generate_purchase_event_with_details(products):
         "eventType": "purchase-complete",
         "visitorId": uuid.uuid4().hex,
         "sessionId": uuid.uuid4().hex,
-        "eventTime": datetime.now().isoformat() + "Z",
+        "eventTime": event_datetime,  # Use the newly generated event datetime
         "experimentIds": [fake.word() for _ in range(random.randint(1, 3))],
         "attributionToken": fake.sha256(),
         "attributes": {

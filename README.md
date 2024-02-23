@@ -4,6 +4,19 @@
 
 This project is designed to facilitate Retail API testing by generating fake data for various scenarios including product data, user events on different pages, and prediction queries. The project consists of Python scripts for data generation, JSON files for storing the generated data, and a text file with an example of a successful prediction format.
 
+## **Must Read: EventFlow Details**
+
+Path 1: SEARCH event -> DETAIL-PAGE-VIEW event -> ADD-TO-CART event -> PURCHASE event
+Path 2 : SEARCH event -> ADD-TO-CART event -> PURCHASE event
+
+If event timestamps are jumbled, then they will be discarded by the AI model during model training, which will in-turn affect the search performance. AI model trains on these events for CTR optimisation and on SEARCH events and the subsequent DETAIL-PAGE-VIEW events i.e. every DETAIL-PAGE-VIEW event must be traceable to a SEARCH event product-id list. This is what counts as “search impressions”
+
+```
+https://medium.com/google-cloud/gcp-retail-search-onboarding-best-practices-for-user-events-part-2-4-393f3d778e1f
+```
+
+It also talks about detecting and handling bot traffic and handling cached search results outside of the retail api for best practices
+
 ### **Files and Their Purposes**
 
 - **`products.py`**: This script generates fake product data and outputs it to **`product.json`**. The generated product data includes essential attributes like product ID, title, description, categories, pricing information, and more, making it suitable for simulating a realistic product catalog in Retail API testing.
@@ -46,3 +59,12 @@ Ensure Python and any required libraries are installed and updated to their late
 ## **Conclusion**
 
 This project aims to streamline the process of testing and demonstrating the capabilities of the Retail API through the use of generated fake data. It covers various aspects of retail interactions, from browsing and interaction to purchase and prediction, providing a comprehensive toolkit for API testing.
+
+## **How To Delete Data**
+
+```
+{
+   "filter": "eventTime > \"2020-01-01T00:00:00Z\" AND eventTime < \"2024-03-01T00:00:00Z\"",
+   "force": true
+}
+```

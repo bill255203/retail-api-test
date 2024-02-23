@@ -10,28 +10,24 @@ def generate_random_datetime(start_date, end_date):
     """
     Generate a random datetime between start_date and end_date.
     
-    :param start_date: The start date as a datetime object.
-    :param end_date: The end date as a datetime object.
+    :param start_date: The start date as a datetime object (e.g., datetime(2022, 1, 1)).
+    :param end_date: The end date as a datetime object (e.g., datetime.now()).
     :return: A random datetime object between the start and end dates.
     """
     time_difference = end_date - start_date
     random_seconds = random.randint(0, int(time_difference.total_seconds()))
-    random_datetime = start_date + timedelta(seconds=random_seconds)
-    return random_datetime
+    return start_date + timedelta(seconds=random_seconds)
 
-# Define the start and end dates
-start_date = datetime(2022, 1, 1)
-end_date = datetime.now()
-
-def generate_user_event():
-    # Generate a random datetime for the eventTime
-    random_event_time = generate_random_datetime(start_date, end_date).isoformat() + "Z"
+def generate_search_user_event():
+    event_datetime = generate_random_datetime(datetime(2022, 1, 1), datetime.now()).isoformat() + "Z"
+    search_query = fake.sentence(nb_words=6)  # Generate a fake search query
     
     return {
-        "eventType": random.choice(["home-page-view"]),
+        "eventType": "search",
         "visitorId": uuid.uuid4().hex,
         "sessionId": uuid.uuid4().hex,
-        "eventTime": random_event_time,
+        "eventTime": event_datetime,
+        "searchQuery": search_query,  # Required for search events
         "experimentIds": [fake.word() for _ in range(random.randint(1, 3))],
         "attributionToken": fake.sha256(),
         "attributes": {
@@ -41,11 +37,14 @@ def generate_user_event():
                 "indexable": fake.boolean()
             }
         }
+        # Note: The document provided specifies additional fields that may be required for other types of events
+        # or for more detailed search events. Adjust and add fields as necessary for your testing needs.
     }
 
-user_events = [generate_user_event() for _ in range(1000)]
+# Generate 10 fake search user events
+user_events = [generate_search_user_event() for _ in range(1000)]
 
 # Write the events to a file, one JSON object per line
-with open('userEvents-homepage.json', 'w') as f:
+with open('userEvents-search.json', 'w') as f:
     for event in user_events:
         f.write(json.dumps(event) + '\n')
