@@ -31,8 +31,6 @@ def generate_fake_product():
         "images": [{"uri": fake.image_url(), "height": 320, "width": 320}]
     }
 
-
-# Step 1: Generate and write product catalog
 with open('products.json', 'w') as f:
     for _ in range(10000):
         product = generate_fake_product()
