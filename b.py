@@ -21,7 +21,8 @@ def map_row_to_user_event_json(row):
     
     # Create the UserEvent JSON object
     user_event_json = {
-        "sessionId": row['event_bundle_sequence_id'],
+        "eventType": "detail-page-view",
+        "sessionId": str(row['event_bundle_sequence_id']),
         "eventTime": event_time_rfc3339,
         "visitorId": row['user_id'],
         "attributes": attributes
