@@ -31,6 +31,6 @@ def map_row_to_json(row):
 json_data = [map_row_to_json(row) for index, row in csv_data.iterrows()]
 
 # Write each JSON object to a file, one object per line
-with open('output.json', 'w', encoding='utf-8') as f:
+with open('product.json', 'w', encoding='utf-8') as f:
     for item in json_data:
         f.write(json.dumps(item, ensure_ascii=False) + "\n")

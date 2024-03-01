@@ -17,22 +17,13 @@ Before you begin, ensure you have the following:
 
 1. **Clone the Repository**: Clone this repository to your local machine to get started.
 
-   ```bash
-   bashCopy code
+   ```
    git clone [repository URL]
    cd [repository directory]
 
    ```
 
-2. **Install Dependencies**: Install the necessary Python libraries.
-
-   ```
-   Copy code
-   pip install -r requirements.txt
-
-   ```
-
-3. **Google Cloud SDK Configuration**: Make sure your Google Cloud SDK is configured to access your project.
+2. **Google Cloud SDK Configuration**: Make sure your Google Cloud SDK is configured to access your project.
 
    ```
    gcloud auth login
@@ -40,32 +31,62 @@ Before you begin, ensure you have the following:
 
    ```
 
-## **How To Use**
+## How To Use
 
-1. **Prepare the Data**: Place your **`.csv`** files in the root directory of the cloned project.
+1. **Prepare the Data**: Place your `.csv` files in the root directory of the cloned project.
 2. **Transform Data**:
-   - Run **`userEvent.py`** to transform user event data.
+   - Ensure your filename matches the one in the `userEvent.py` script. If your filename is `techorange-pageview-202401.csv`, update the script accordingly:
+     ```python
+     csv_data = pd.read_csv('techorange-pageview-202401.csv', encoding='utf-8')
+
      ```
-     Copy code
+   - Run `userEvent.py` to transform user event data:
+     ```
      python userEvent.py
 
      ```
-   - Run **`product.py`** to transform product data.
+   - Similarly, ensure your filename matches the one in the `product.py` script. If your filename is `techorange-postmeta-20240206.csv`, update the script accordingly:
+     ```python
+     csv_data = pd.read_csv('techorange-postmeta-20240206.csv', encoding='utf-8')
+
      ```
-     Copy code
+   - Run `product.py` to transform product data:
+     ```
      python product.py
 
      ```
-3. **Upload to Google Cloud Storage**: Follow the instructions prompted by the scripts or manually upload the transformed data to your Google Cloud Storage bucket.
+3. **Upload to Google Cloud Storage**: Follow the instructions in the `techorange retail README` to manually upload the transformed data to your Google Cloud Storage bucket.
+
 4. **Transfer to BigQuery**:
-   - Execute **`gcs2bq.py`** to transfer data from Google Cloud Storage to BigQuery.
+   - Before executing `gcs2bq.py`, check if the first few lines match the correct settings for your project, bucket, and dataset:
+     ```python
+     # Example usage
+     project_id = 'example-project'
+     gcs_bucket_name = 'techorange'   # Source
+     bq_dataset_id = 'techorange'     # Destination
+
      ```
-     Copy code
+   - Set the source and destination table names correctly:
+     ```python
+     source_product = 'product.json'      # Source file name
+     table_id_product = 'products'        # Destination table name
+
+     source_user_event = 'userEvent.json' # Source file name
+     table_id_user_event = 'userEvents'   # Destination table name
+
+     ```
+   - Execute `gcs2bq.py` to transfer data from Google Cloud Storage to BigQuery:
+     ```
      python gcs2bq.py
 
      ```
-5. **Verification**: Use the provided screenshots in the documentation to verify the correct setup and data transfer. For further data manipulation and query execution, refer to the BigQuery documentation.
-6. **Recommendation Generation**: A curl request example and the corresponding code can be found in the **`curl.txt`** file for generating recommendations.
+5. **Verification**: Check the BigQuery console to verify that the tables are created correctly.
+
+6. **Model Creation & Serving Config**: For creating the model and serving configuration, refer back to the `techorange retail README` file.
+
+7. **Recommendation Generation**:
+   - Find an example CURL request and the corresponding code in the `curl.txt` file for generating recommendations.
+   - Use the CURL request to generate a sample recommendation from the model:
 
 ## **How To Delete Data**
 

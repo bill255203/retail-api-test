@@ -2,14 +2,14 @@ import pandas as pd
 import json
 
 # Load the CSV data into a DataFrame
-csv_data = pd.read_csv('techorange-pageview-202401.csv')
+csv_data = pd.read_csv('techorange-pageview-202401.csv', encoding='utf-8')
 
 # Adjusted function to create the desired JSON structure for attributes
 def map_row_to_user_event_json(row):
     # Parse the event_date assuming it's in 'YYYYMMDD' format
     event_time = pd.to_datetime(row['event_date'], format='%Y%m%d')
     # Convert to UTC and format as RFC3339 with 'Z' and nanoseconds
-    event_time_rfc3339 = event_time.strftime('%Y-%m-%dT%H:%M:%S.000000000Z')param
+    event_time_rfc3339 = event_time.strftime('%Y-%m-%dT%H:%M:%S.000000000Z')
     
     # Initialize an empty attributes dictionary
     attributes = {}
@@ -42,6 +42,6 @@ def map_row_to_user_event_json(row):
 user_event_json_data = [map_row_to_user_event_json(row) for index, row in csv_data.iterrows()]
 
 # Write each UserEvent JSON object to a file, one object per line
-with open('userevents_modified.json', 'w', encoding='utf-8') as f:
+with open('userEvent.json', 'w', encoding='utf-8') as f:
     for item in user_event_json_data:
         f.write(json.dumps(item, ensure_ascii=False) + "\n")

@@ -1,17 +1,29 @@
 from google.cloud import bigquery
 from google.cloud.exceptions import NotFound
 
-def recreate_table(client, dataset_id, table_id, schema=None):
+# Example usage
+project_id = 'tw-rd-de-bill-404606'
+gcs_bucket_name = 'techorange'   #source
+bq_dataset_id = 'techorange'        #destination
+
+source_product = 'product.json'   #source file name
+table_id_product = 'products'     #destination table name
+
+source_user_event = 'userEvent.json'   #source file name
+table_id_user_event = 'userEvents'     #destination table name
+def recreate_table(client, project_id, dataset_id, table_id, schema=None):
     """
     Deletes the table if it exists and creates a new one.
     
     Args:
     client (bigquery.Client): BigQuery client.
+    project_id (str): BigQuery project ID.
     dataset_id (str): BigQuery dataset ID.
     table_id (str): BigQuery table ID.
     schema (list, optional): Schema of the table to be created. Defaults to None.
     """
-    table_ref = client.dataset(dataset_id).table(table_id)
+    dataset_ref = client.dataset(dataset_id, project=project_id)
+    table_ref = dataset_ref.table(table_id)
     
     try:
         client.delete_table(table_ref)  # Attempt to delete the table.
@@ -24,7 +36,7 @@ def recreate_table(client, dataset_id, table_id, schema=None):
     client.create_table(table)
     print(f"Table {dataset_id}.{table_id} created.")
 
-def load_json_from_gcs_to_bigquery(bucket_name, source_blob_name, dataset_id, table_id):
+def load_json_from_gcs_to_bigquery(bucket_name, source_blob_name, project_id, dataset_id, table_id):
     """
     Loads a JSON file from Google Cloud Storage into a BigQuery table,
     replacing the table if it exists.
@@ -38,7 +50,7 @@ def load_json_from_gcs_to_bigquery(bucket_name, source_blob_name, dataset_id, ta
     client = bigquery.Client()
     
     # Recreate the table
-    recreate_table(client, dataset_id, table_id)
+    recreate_table(client, project_id, dataset_id, table_id)
     
     # Now proceed with loading data into the new table
     table_ref = client.dataset(dataset_id).table(table_id)
@@ -58,10 +70,5 @@ def load_json_from_gcs_to_bigquery(bucket_name, source_blob_name, dataset_id, ta
     
     print(f"Loaded {load_job.output_rows} rows into {dataset_id}:{table_id}.")
 
-# Example usage
-bucket_name = 'kb-confluence'
-source_blob_name = 'output.json'
-dataset_id = 'tw-rd-de-bill-404606.techorange'
-table_id = 'products'
-
-load_json_from_gcs_to_bigquery(bucket_name, source_blob_name, dataset_id, table_id)
+load_json_from_gcs_to_bigquery(gcs_bucket_name, source_product, project_id, bq_dataset_id, table_id_product)
+# load_json_from_gcs_to_bigquery(gcs_bucket_name, source_product, project_id, bq_dataset_id, table_id_product)
