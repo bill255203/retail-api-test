@@ -113,16 +113,19 @@ Before you begin, ensure you have the following:
 
 7. **Model Creation & Serving Config**: For creating the model and serving configuration, refer back to the `techorange retail README` file.
 
+  (a) **Model Creation**: Follow these steps to set up a new model in Google Retail.
+
+  - Go to the Google Retail platform and access the "Models" section.
+  - Click on “Create Model” and input a name for your new model.
+  - Select "Others you may like" for the model type and finalize creation with additional custom settings as needed.
+
+  (b) **Serving Configuration**: Set up configurations to serve the model.
+
+  - In the "Serving Configurations" section, click “Create Serving Config”.
+    Keep the type as Recommendation, provide a config name, and continue without serving controls.
+  - Select the created model to include and configure additional parameters if necessary.
+
 8. **Recommendation Generation**:
    - Find an example CURL request and the corresponding code in the `curl.sh` file for generating recommendations.
    - Use the CURL request to generate a sample recommendation from the model:
      by pasting the CURL request into the terminal to receive recommendations
-
-## **How To Delete Data: Additional Info**
-
-```
-{
-   "filter": "eventTime > \"2020-01-01T00:00:00Z\" AND eventTime < \"2024-03-01T00:00:00Z\"",
-   "force": true
-}
-```

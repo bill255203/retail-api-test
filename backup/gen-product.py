@@ -32,6 +32,6 @@ def generate_fake_product():
     }
 
 with open('products.json', 'w') as f:
-    for _ in range(10000):
+    for _ in range(100000):
         product = generate_fake_product()
         f.write(json.dumps(product) + '\n')
