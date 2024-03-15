@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This project is designed to assist TechOrange by transforming and uploading CSV data into Google Cloud Storage and subsequently transferring it to BigQuery. The transformation process adapts user event and product data into a format suitable for Google Retail, facilitating further analysis and recommendation generation. This document provides a comprehensive guide on how to use the provided Python scripts (**`userEvent.py`**, **`product.py`**, **`gcs2bq.py`**) and how to perform operations such as data transformation, uploading to Google Cloud Storage, and data transfer to BigQuery.
+This project is designed to assist TechOrange by transforming and uploading CSV data into Google Cloud Storage and subsequently transferring it to BigQuery. The transformation process adapts user event and product data into a format suitable for Google Retail, facilitating further analysis and recommendation generation. This document provides a comprehensive guide on how to perform these operations by using (**`userEvent.py`**, **`product.py`**, **`gcs2bq.py`**)
 
 ## **Prerequisites**
 
@@ -33,7 +33,7 @@ Before you begin, ensure you have the following:
 
 ## How To Use
 
-1. **Prepare the Data**: Place your `.csv` files in the root directory of the cloned project.
+1. **Prepare the Data**: Place your `*.csv` files in the root directory of the cloned project.
 2. **Transform Data**:
 
    - Ensure your filename matches the one in the `userEvent.py` script. If your filename is `techorange-pageview-202401.csv`, update the script accordingly:
@@ -64,19 +64,19 @@ Before you begin, ensure you have the following:
 
      ```
 
-3. **Upload to Google Cloud Storage**: Follow the instructions in the `techorange retail README` to manually upload the transformed data to your Google Cloud Storage bucket.
+3. **Upload to Google Cloud Storage**: Follow the instructions in the **`techorange retail README`** to manually upload the transformed data to your Google Cloud Storage bucket.
 
-   - Inside your Google Cloud Storage bucket, locate and click the "Upload Files" button to start the upload process.
+   - Inside your Google Cloud Storage bucket, locate and click the `Upload Files` button to start the upload process.
    - Navigate through your local file system to find the JSON files you prepared earlier.
    - Select the JSON files you intend to upload to the bucket.
 
-4. **Download Service Account Key**: Refer to the `techorange retail README` for detailed instructions on setting up authentication.
+4. **Download Service Account Key**: Refer to the **`techorange retail README`** for detailed instructions on setting up authentication.
 
-   - Navigate to the IAM & Admin tab in the Google Cloud Console and click on Service Accounts.
+   - Navigate to the `IAM & Admin` tab in the Google Cloud Console and click on `Service Accounts`.
    - Find the service account that has the necessary GCS read and BigQuery write permissions.
-   - Click on Keys next to the desired service account.
-   - Click on Add Key and choose Create New Key.
-   - When prompted, select JSON as the key type. The JSON key file will be downloaded to your local download section.
+   - Click on `Keys` next to the desired service account.
+   - Click on `Add Key` and choose `Create New Key`.
+   - When prompted, select `JSON` as the key type. The JSON key file will be downloaded to your local download section.
    - Move the JSON file into the project's root directory for authentication purposes.
 
 5. **Transfer to BigQuery**:
@@ -86,8 +86,8 @@ Before you begin, ensure you have the following:
      ```python
      # Example usage
      project_id = 'example-project'
-     gcs_bucket_name = 'techorange'   # Source
-     bq_dataset_id = 'techorange'     # Destination
+     gcs_bucket_name = 'techorange'   # Source bucket name
+     bq_dataset_id = 'techorange'     # Destination table name
 
      ```
 
@@ -111,19 +111,18 @@ Before you begin, ensure you have the following:
 
 6. **Verification**: Check the BigQuery console to verify that the tables are created correctly.
 
-7. **Model Creation & Serving Config**: For creating the model and serving configuration, refer back to the `techorange retail README` file.
+7. **Model Creation & Serving Config**: For creating the model and serving configuration, refer back to the **`techorange retail README`** file.
 
    - **Model Creation**: Follow these steps to set up a new model in Google Retail.
 
-     - Go to the Google Retail platform and access the "Models" section.
-     - Click on "Create Model" and input a name for your new model.
-     - Select "Others you may like" for the model type and finalize creation with additional custom settings as needed.
+     - Go to the Google Retail platform and access the `Models` section.
+     - Click on `Create Model` and input a name for your new model.
+     - Select `Others you may like` for the model type and finalize creation with additional custom settings as needed.
 
-   - **Serving Configuration**: Set up configurations to serve the model.
-     - In the "Serving Configurations" section, click “Create Serving Config”. Keep the type as Recommendation, provide a config name, and continue without serving controls.
+   - **Serving Configuration Creation**: Set up configurations to serve the model.
+     - In the `Serving Configurations` section, click `Create Serving Config`. Keep the type as Recommendation, provide a config name, and `continue` without serving controls.
      - Select the created model to include and configure additional parameters if necessary.
 
 8. **Recommendation Generation**:
-   - Find an example CURL request and the corresponding code in the `curl.sh` file for generating recommendations.
-   - Use the CURL request to generate a sample recommendation from the model:
-     by pasting the CURL request into the terminal to receive recommendations
+
+   - Find an example CURL request and the corresponding code in the `recommend.sh` file for generating recommendations by pasting the CURL request into the terminal and click enter.

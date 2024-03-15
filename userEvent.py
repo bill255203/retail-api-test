@@ -34,6 +34,15 @@ def map_row_to_user_event_json(row):
         "eventTime": event_time_rfc3339,
         "visitorId": row['user_id'],
         "attributes": attributes
+        # ,"productDetails": [
+        #     {
+        #         "product": {
+        #         "id": str(row['product_id']), //replace product_id with column name in excel
+        #         "name": str(<Product Name>)  //not required for search if not in excel
+        #         },
+        #         "quantity": int(<row['quantity'])
+        #     }
+        # ]
     }
     
     return user_event_json
